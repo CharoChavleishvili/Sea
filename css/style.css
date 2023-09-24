@@ -1,4 +1,14 @@
 .sea {
 	width: 100%;
 	position: relative;
+	
+
+}
+.fish1 {
+	position: absolute;
+	animation: fish1 2s infinite;
+	top: 100px;
+	width: 150px;
+	right: 0px;
+	animation: fish1 0px infinite;
 }
