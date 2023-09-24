@@ -25,17 +25,16 @@
 	width: 150px;
 	right: 0px;
 	animation: fish2 5s infinite;
-	animation-duration: 5s;
+	animation-duration: 10s;
 	animation-timing-function: linear;
 
 }
 
 @keyframes fish2 {
-	0% {top: 250px}
-	25% {left: 800px}
-	40% {left: 600px}
-	60% {left: 400px}
-	80% {left: 200px;}
+	0% {top: 250px} 
+	0.1% {left: 1200px}
+	
+
 	100%{left: 0px}
   
 
