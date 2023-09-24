@@ -26,7 +26,8 @@
 	right: 0px;
 	animation: fish2 5s infinite;
 	animation-duration: 5s;
-	
+	animation-timing-function: linear;
+
 }
 
 @keyframes fish2 {
@@ -35,6 +36,6 @@
 	40% {left: 600px}
 	60% {left: 400px}
 	80% {left: 200px;}
-	100% {left: 0px}
+	100%{left: 0px}
   
 
