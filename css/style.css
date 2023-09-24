@@ -16,8 +16,8 @@
 }
 
 @keyframes fish1 {
-  0%   {top: 0px; width: 100px;}
-  100% {top: 200px; width: 300px;}
+  0%   {top: 600px; width: 100px;}
+  100% {top: 400px; width: 300px;}
 }
 .fish2 {
 	position: absolute;
@@ -33,8 +33,31 @@
 @keyframes fish2 {
 	0% {top: 500px} 
 	0.1% {left: 1200px}
-	
-
 	100%{left: 0px}
+}
+.sun {
+	position: absolute;
+	top: 50px;
+	width: 200px;
+	right: 100px;
+	animation: sun 5s infinite;
+	/*animation-duration: 10s;
+	animation-timing-function: linear;*/
+}
+
+@keyframes sun {
+/* 0%{
+    transform:rotate(0deg)
+              translate(-165px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-165px)
+              rotate(-360deg);
+  }*/
+}
+
   
 
