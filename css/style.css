@@ -10,5 +10,31 @@
 	top: 100px;
 	width: 150px;
 	right: 0px;
-	animation: fish1 0px infinite;
+	animation: fish1 5s infinite;
+	animation-duration: 5s;
+	
 }
+
+@keyframes fish1 {
+  0%   {top: 0px; width: 100px;}
+  100% {top: 200px; width: 300px;}
+}
+.fish2 {
+	position: absolute;
+	top: 250px;
+	width: 150px;
+	right: 0px;
+	animation: fish2 5s infinite;
+	animation-duration: 5s;
+	
+}
+
+@keyframes fish2 {
+	0% {top: 250px}
+	25% {left: 800px}
+	40% {left: 600px}
+	60% {left: 400px}
+	80% {left: 200px;}
+	100% {left: 0px}
+  
+
