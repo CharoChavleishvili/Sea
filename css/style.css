@@ -21,7 +21,7 @@
 }
 .fish2 {
 	position: absolute;
-	top: 250px;
+	top: 500px;
 	width: 150px;
 	right: 0px;
 	animation: fish2 5s infinite;
@@ -31,7 +31,7 @@
 }
 
 @keyframes fish2 {
-	0% {top: 250px} 
+	0% {top: 500px} 
 	0.1% {left: 1200px}
 	
 
