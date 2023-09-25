@@ -24,9 +24,10 @@
 	top: 500px;
 	width: 150px;
 	right: 0px;
-	animation: fish2 5s infinite;
+	animation: fish2 5s infinite alternate;
 	animation-duration: 10s;
 	animation-timing-function: linear;
+
 
 }
 
