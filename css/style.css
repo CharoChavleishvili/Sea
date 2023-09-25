@@ -44,9 +44,16 @@
 	/*animation-duration: 10s;
 	animation-timing-function: linear;*/
 }
+.star {
+	position: absolute;
+	top: 700px;
+	width: 100px;
+	right: 1000px;
+	animation: sun 5s infinite;
+}
 
-@keyframes sun {
-/* 0%{
+@keyframes star {
+	0%{
     transform:rotate(0deg)
               translate(-165px)
               rotate(0deg);
@@ -56,8 +63,7 @@
     transform:rotate(360deg)
               translate(-165px)
               rotate(-360deg);
-  }*/
+  }
 }
-
   
 
